@@ -220,7 +220,7 @@ public class Spaceship : MonoBehaviour
 		mTorque = Vector3.Lerp(mTorque, Vector3.zero, Mathf.Clamp01(delta * 5f));
 
 		// Roll turning should be less sensitive
-		torque.z *= 0.35f;
+		torque.z *= 0.55f;
 
 		// It seems the 'pitch' rotation is faster than 'yaw'? Slow it down manually.
 		// Note to self: investigate this later.
@@ -232,7 +232,7 @@ public class Spaceship : MonoBehaviour
 		// Dampen the current angular velocity, causing the ship to gradually stop turning
 		mRb.isKinematic = false;
 		mRb.angularVelocity = mRb.angularVelocity * (1.0f - 0.05f * mNavigation * energyFactor);
-
+		
 		// Apply the calculated torque
 		mRb.AddRelativeTorque(torque * mNavigation * energyFactor);
 	}

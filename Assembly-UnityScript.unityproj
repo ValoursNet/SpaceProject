@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{AAECBCBA-4520-FBE9-DCCA-AC093A62B11E}</ProjectGuid>
+	<ProjectGuid>{DB5D9423-139F-71E5-A33C-A7FBFF58C21F}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -37,10 +37,10 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>F:/installed/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Personal/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>F:/installed/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Personal/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -48,9 +48,7 @@
      <Compile Include="Assets\SGSK\Scripts\Effects\BloomAndLensFlares.js" />
      <Compile Include="Assets\SGSK\Scripts\Effects\PostEffectsBase.js" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-     <None Include="Assets\SGSK\Models\Planet\Atmosphere.shader" />
      <None Include="Assets\SGSK\Shaders\Text.shader" />
-     <None Include="Assets\SGSK\Models\Planet\Planet.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\SGSK\Models\Asteroid\Asteroid.shader" />
@@ -59,7 +57,6 @@
      <None Include="Assets\SGSK\Models\Asteroid\Asteroid - Bump.shader" />
      <None Include="Assets\SGSK\Misc\Distortion\DistortionTwo.shader" />
      <None Include="Assets\SGSK\Shaders\Unlit - Mask.shader" />
-     <None Include="Assets\SGSK\Models\Planet\PlanetLow.shader" />
      <None Include="Assets\SGSK\Models\Plasma Beam\Plasma Beam.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />

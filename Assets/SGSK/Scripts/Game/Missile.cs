@@ -9,7 +9,7 @@ public class Missile : MonoBehaviour
 	public bool oneTarget = false;
 	public HeatSource currentTarget;
 
-	Spaceship mControl;
+	MissileSpaceShipB mControl;
 	Transform mTrans;
 	float mNextUpdate = 0f;
 	float mTimeSinceTarget = 0f;
@@ -24,7 +24,7 @@ public class Missile : MonoBehaviour
 		if (NetworkManager.IsMine(this))
 		{
 			mTrans = transform;
-			mControl = Tools.FindInParents<Spaceship>(mTrans);
+			mControl = Tools.FindInParents<MissileSpaceShipB>(mTrans);
 		}
 		else
 		{

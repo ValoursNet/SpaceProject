@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9D37F8A7-F49A-5AFD-4F5C-12C67B24D91F}</ProjectGuid>
+	<ProjectGuid>{26D58B02-5686-6046-9BB0-6024072086AE}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -37,10 +37,10 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>F:/installed/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Personal/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>F:/installed/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Personal/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,9 +50,7 @@
      <Compile Include="Assets\SGSK\Scripts\Editor\Tools\SelectionTools.cs" />
      <Compile Include="Assets\SGSK\Scripts\Editor\Tools\TransformInspector.cs" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-     <None Include="Assets\SGSK\Models\Planet\Atmosphere.shader" />
      <None Include="Assets\SGSK\Shaders\Text.shader" />
-     <None Include="Assets\SGSK\Models\Planet\Planet.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\SGSK\Models\Asteroid\Asteroid.shader" />
@@ -61,7 +59,6 @@
      <None Include="Assets\SGSK\Models\Asteroid\Asteroid - Bump.shader" />
      <None Include="Assets\SGSK\Misc\Distortion\DistortionTwo.shader" />
      <None Include="Assets\SGSK\Shaders\Unlit - Mask.shader" />
-     <None Include="Assets\SGSK\Models\Planet\PlanetLow.shader" />
      <None Include="Assets\SGSK\Models\Plasma Beam\Plasma Beam.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
@@ -83,12 +80,12 @@
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>F:\installed\unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ <HintPath>D:\Personal\unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{C1BF62FA-C5C9-41A2-2CDF-B0DCBC002D60}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{6D93A4C9-1114-1E06-0097-8C8B20106F3F}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

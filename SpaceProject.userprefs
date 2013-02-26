@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SGSK\Scripts\Game\Spaceship.cs">
+    <Files>
+      <File FileName="Assets\SGSK\Scripts\Game\Spaceship.cs" Line="102" Column="1" />
+      <File FileName="Assets\SGSK\Scripts\Game\Missile.cs" Line="1" Column="1" />
+      <File FileName="Assets\SGSK\Scripts\Game\MissileSpaceShipB.cs" Line="92" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
